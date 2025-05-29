@@ -7,16 +7,9 @@
   </view>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      title: 'Hello',
-    }
-  },
-  onLoad() {},
-  methods: {},
-}
+<script setup>
+import { ref } from 'vue'
+const title = ref('Hello World!')
 </script>
 
 <style>
