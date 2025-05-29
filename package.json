@@ -1,0 +1,24 @@
+{
+  "name": "uni-app-template",
+  "version": "1.0.0",
+  "description": "uni-app 模板项目，补充了vscode、eslint、stylelint等配置。",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "uni-app"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "@vue/eslint-config-prettier": "^10.2.0",
+    "eslint": "^9.27.0",
+    "eslint-plugin-vue": "^10.1.0",
+    "prettier": "^3.5.3",
+    "vue-eslint-parser": "^10.1.3"
+  }
+}
