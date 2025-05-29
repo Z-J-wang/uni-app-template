@@ -18,7 +18,7 @@ uni-app-template 是一个 uni-app 的模板工程。uni-app-template 采用 HBu
 ### 运行环境说明
 
 - vscode
-- HBuilderX
+- HBuilderX >=3.99
 - node.js >=21.0.0
 - yarn >=1.22.0
 
