@@ -13,8 +13,8 @@
   "keywords": [
     "uni-app"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Jay040030@outlook.com",
+  "license": "MIT",
   "devDependencies": {
     "@eslint/js": "^9.27.0",
     "@vue/eslint-config-prettier": "^10.2.0",
