@@ -26,3 +26,7 @@ dist-ssr
 
 *.tsbuildinfo
 .gitignore
+
+# HBuliderX 相关文件
+unpackage
+.hbuilderx
