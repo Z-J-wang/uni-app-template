@@ -1,6 +1,6 @@
 {
   "name": "uni-app-template",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "uni-app 模板项目，补充了vscode、eslint、stylelint等配置。",
   "main": "main.js",
   "type": "module",
