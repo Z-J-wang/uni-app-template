@@ -8,7 +8,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "lint:stylelint": "stylelint \"**/*.{vue,css,less,html,xml}\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
   },
   "keywords": [
     "uni-app"
@@ -16,10 +17,13 @@
   "author": "Jay040030@outlook.com",
   "license": "MIT",
   "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
     "@eslint/js": "^9.27.0",
     "@vue/eslint-config-prettier": "^10.2.0",
     "eslint": "^9.27.0",
     "eslint-plugin-vue": "^10.1.0",
+    "husky": "^9.1.7",
     "postcss-html": "^1.8.0",
     "prettier": "^3.5.3",
     "scss": "^0.2.4",
