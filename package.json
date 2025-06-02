@@ -5,8 +5,9 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
+    "lint": "yarn lint:eslint && yarn lint:stylelint",
+    "lint:fix": "yarn lint --fix",
+    "lint:eslint": "eslint .",
     "lint:stylelint": "stylelint \"**/*.{vue,css,less,html,xml}\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky"
