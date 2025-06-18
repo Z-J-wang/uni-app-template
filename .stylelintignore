@@ -4,6 +4,7 @@ dist
 public
 dist-ssr
 coverage
+static
 
 # 忽略所有的JS文件
 **/*.{js,jsx,ts,tsx,mjs}
