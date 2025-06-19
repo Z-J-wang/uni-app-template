@@ -1,0 +1,6 @@
+/*
+ * 由于当前项目使用的是 HBuilder 编译打包。不会自动引入tailwindcss，因此此处的tailwindcss只是为了提示。
+ * 真正引入 tailwindcss 是在 index.html 中使用 CDN 引入。
+ * 如果需要对 tailwindcss 进行配置，请注意两种引入模式都需要同步更新。
+ */
+@import 'tailwindcss';
